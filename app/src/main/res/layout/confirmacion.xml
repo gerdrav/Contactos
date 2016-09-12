@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.marcelino.contactos.Confirmation">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/confirmation_title"
+            android:gravity="center"
+            android:textSize="@dimen/title_text_size"
+            android:padding="@dimen/title_padding"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:id="@+id/tvSetName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/confirmation_text_size"
+            android:paddingLeft="@dimen/activity_padding_margin"
+            android:paddingRight="@dimen/activity_padding_margin"
+            android:paddingTop="@dimen/activity_padding_top_confirm"
+            android:paddingBottom="@dimen/activity_padding_bottom_confirm"
+            android:layout_gravity="left"/>
+
+        <TextView
+            android:id="@+id/tvSetBirthDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/confirmation_text_size"
+            android:paddingLeft="@dimen/activity_padding_margin"
+            android:paddingRight="@dimen/activity_padding_margin"
+            android:paddingTop="@dimen/activity_padding_top_confirm"
+            android:paddingBottom="@dimen/activity_padding_bottom_confirm"
+            android:layout_gravity="left"/>
+
+        <TextView
+            android:id="@+id/tvSetPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/confirmation_text_size"
+            android:paddingLeft="@dimen/activity_padding_margin"
+            android:paddingRight="@dimen/activity_padding_margin"
+            android:paddingTop="@dimen/activity_padding_top_confirm"
+            android:paddingBottom="@dimen/activity_padding_bottom_confirm"
+            android:layout_gravity="left"/>
+
+        <TextView
+            android:id="@+id/tvSetEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/confirmation_text_size"
+            android:paddingLeft="@dimen/activity_padding_margin"
+            android:paddingRight="@dimen/activity_padding_margin"
+            android:paddingTop="@dimen/activity_padding_top_confirm"
+            android:paddingBottom="@dimen/activity_padding_bottom_confirm"
+            android:layout_gravity="left"/>
+
+        <TextView
+            android:id="@+id/tvSetDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/confirmation_text_size"
+            android:paddingLeft="@dimen/activity_padding_margin"
+            android:paddingRight="@dimen/activity_padding_margin"
+            android:paddingTop="@dimen/activity_padding_top_confirm"
+            android:paddingBottom="@dimen/activity_padding_bottom_confirm"
+            android:layout_gravity="left"/>
+
+        <Button
+            android:id="@+id/EditSettings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/button_text_size"
+            android:text="@string/change_data_button"
+            android:layout_gravity="center"
+            android:paddingLeft="@dimen/activity_padding_margin"
+            android:paddingRight="@dimen/activity_padding_margin"
+            android:layout_margin="@dimen/activity_padding_margin"
+            android:onClick="editSettings"/>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Contactos</string>
+    <string name="name">Nombre completo</string>
+    <string name="phoneNumber">Teléfono</string>
+    <string name="email">Email</string>
+    <string name="description">Descripcion</string>
+    <string name="birthDate">Fecha de nacimiento</string>
+    <string name="next_button">Siguiente</string>
+    <string name="app_name_confirmation">Confirmar Datos</string>
+    <string name="confirmation_title">Confirmacion de Datos</string>
+    <string name="change_data_button">Editar</string>
+    <string name="pName">Nombre</string>
+    <string name="pDate">Fecha</string>
+    <string name="pPhone">Teléfono</string>
+    <string name="pEmail">Email</string>
+    <string name="pDescription">Descripcion</string>
+    <string name="wrongMessage">Error</string>
+    <string name="wrongCaracterName">Caracter invalido!</string>
+    <string name="wrongCaracterPhone">Ingresar solo numeros</string>
+    <string name="wrongCaracterEmail">El email es incorrecto</string>
+    <string name="wrongDescriptionMessage">Ingresar descripcion</string>
+</resources>
